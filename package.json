@@ -1,0 +1,31 @@
+{
+  "name": "@chengyixu/jsonforge-cli",
+  "version": "1.0.0",
+  "description": "A powerful JSON/CSV converter with transformations, pivot, filter, and aggregation",
+  "main": "dist/index.js",
+  "bin": {
+    "jsonforge": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "json",
+    "csv",
+    "converter",
+    "cli",
+    "data",
+    "transformation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "csv-parse": "^5.5.3",
+    "csv-stringify": "^6.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
